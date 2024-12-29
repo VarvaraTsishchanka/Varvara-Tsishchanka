@@ -34,7 +34,7 @@ if (c >= 0) {
         } else if (value > 0 && value <= 100) {
             System.out.println("Желтый");
         } else if (value > 100) {
-            System.out.printlm("Зеленый");
+            System.out.println("Зеленый");
         }
     }
 }
