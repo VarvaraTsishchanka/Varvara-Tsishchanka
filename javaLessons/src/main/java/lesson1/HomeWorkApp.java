@@ -18,8 +18,7 @@ int b = 3;
 int c = a + b;
 if (c >= 0) {
     System.out.println("Сумма положительная");
-}
-if (c<0) {
+} else if (c<0) {
             System.out.println("Сумма отрицательная");
         }
     }
