@@ -42,7 +42,7 @@ if (c >= 0) {
         int a;
         int b;
         a = 7;
-        b = 4;
+        b = 9;
         if (a >= b) {
             System.out.println("a >= b");
         } else if (a < b) {
