@@ -23,7 +23,7 @@ b = -1;
 c = a + b;
 if (c >= 0) {
     System.out.println("Сумма положительная");
-} else if (c<0) {
+} if (c<0) {
             System.out.println("Сумма отрицательная");
         }
     }
@@ -32,9 +32,9 @@ if (c >= 0) {
         value = 50;
         if (value <= 0) {
             System.out.println("Красный");
-        } else if (value > 0 && value <= 100) {
+        } if (value > 0 && value <= 100) {
             System.out.println("Желтый");
-        } else if (value > 100) {
+        } if (value > 100) {
             System.out.println("Зеленый");
         }
     }
@@ -45,7 +45,7 @@ if (c >= 0) {
         b = 9;
         if (a >= b) {
             System.out.println("a >= b");
-        } else if (a < b) {
+        } if (a < b) {
             System.out.println("a < b");
         }
     }
