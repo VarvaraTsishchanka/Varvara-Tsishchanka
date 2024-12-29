@@ -11,11 +11,6 @@ public class HomeWorkApp {
         System.out.println("Apple");
 
     }
-}
-public class HomeWorkApp {
-    public static void main(String[] args) {
-        checkSumSign();
-    }
     public static void checkSumSign() {
 int a = 5;
 int b = 3;
