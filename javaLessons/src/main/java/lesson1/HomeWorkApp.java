@@ -28,7 +28,7 @@ if (c >= 0) {
     }
     public static void printColor() {
         int value;
-        value = 1;
+        value = 100;
         if (value <= 0) {
             System.out.println("Красный");
         } else if (value > 0 && value <= 100) {
