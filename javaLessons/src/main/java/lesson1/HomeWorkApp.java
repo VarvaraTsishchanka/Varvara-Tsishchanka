@@ -13,9 +13,12 @@ public class HomeWorkApp {
 
     }
     public static void checkSumSign() {
-int a = 5;
-int b = 3;
-int c = a + b;
+int a;
+int b;
+int c;
+a = 3;
+b = 5;
+c = a + b;
 if (c >= 0) {
     System.out.println("Сумма положительная");
 } else if (c<0) {
