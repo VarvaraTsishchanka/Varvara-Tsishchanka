@@ -18,8 +18,8 @@ public class HomeWorkApp {
 int a;
 int b;
 int c;
-a = 0;
-b = -1;
+a = 1;
+b = 2;
 c = a + b;
 if (c >= 0) {
     System.out.println("Сумма положительная");
@@ -29,7 +29,7 @@ if (c >= 0) {
     }
     public static void printColor() {
         int value;
-        value = 50;
+        value = 105;
         if (value <= 0) {
             System.out.println("Красный");
         } if (value > 0 && value <= 100) {
@@ -42,7 +42,7 @@ if (c >= 0) {
         int a;
         int b;
         a = 7;
-        b = 9;
+        b = 7;
         if (a >= b) {
             System.out.println("a >= b");
         } if (a < b) {
