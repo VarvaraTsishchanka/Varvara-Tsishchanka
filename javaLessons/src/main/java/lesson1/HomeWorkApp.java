@@ -16,8 +16,8 @@ public class HomeWorkApp {
 int a;
 int b;
 int c;
-a = 3;
-b = 5;
+a = 0;
+b = -1;
 c = a + b;
 if (c >= 0) {
     System.out.println("Сумма положительная");
