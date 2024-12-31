@@ -1,10 +1,13 @@
 package lesson2;
 
-public class Homework7Task1 {
-    public static boolean isSumCorrect(int a, int b) {
+public class HomeWork7Task1 {
+    public static void main(String[] args) {
+        isSumCorrect();
+    }
+    public static boolean isSumCorrect (int a, int b, int c) {
         a = 5;
         b = 3;
-        int c = a + b;
+        c = a + b;
         if (c >= 10 && c <= 20) {
             return true;
         } else {
@@ -12,3 +15,5 @@ public class Homework7Task1 {
         }
     }
 }
+
+
