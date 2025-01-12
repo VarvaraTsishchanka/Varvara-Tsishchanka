@@ -21,7 +21,7 @@ public class Cat extends Animal{
 
     @Override
     void swim(int range) {
-        System.out.println("Cat cannot swim");
+        System.out.println(name+ " cannot swim");
     }
 
     static int getCountCat(){
