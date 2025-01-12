@@ -1,6 +1,6 @@
 package lesson4;
 
-public class Main {
+public class AnimalsMain {
     public static void main(String[] args) {
         Animal animal = new Animal();
 

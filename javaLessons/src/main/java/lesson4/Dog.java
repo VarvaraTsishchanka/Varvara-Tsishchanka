@@ -1,10 +1,10 @@
 package lesson4;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
     String name;
     static int countDog = 0;
 
-    Dog(String name){
+    Dog(String name) {
         super();
         countDog++;
         this.name = name;
@@ -13,9 +13,9 @@ public class Dog extends Animal{
     @Override
     void run(int range) {
         if (range > 500) {
-            System.out.println(name+ " cannot run more than 500 m");
+            System.out.println(name + " cannot run more than 500 m");
         } else {
-            System.out.println(name+ " ran " + range + " m");
+            System.out.println(name + " ran " + range + " m");
         }
 
     }
@@ -29,7 +29,7 @@ public class Dog extends Animal{
         }
     }
 
-    static int getCountDog (){
+    static int getCountDog() {
         return countDog;
     }
 }
