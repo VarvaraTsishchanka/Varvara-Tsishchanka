@@ -23,7 +23,7 @@ public class Dog extends Animal{
     @Override
     void swim(int range) {
         if (range > 10) {
-            System.out.println("Dog cannot swim more than " +range+ " m");
+            System.out.println("Dog cannot swim more than 10 m");
         } else {
             System.out.println(name + " swam " + range + " m");
         }

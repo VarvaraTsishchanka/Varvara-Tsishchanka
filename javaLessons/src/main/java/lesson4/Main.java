@@ -15,7 +15,7 @@ public class Main {
         fluffy.swim(10);
 
         bobby.swim(10);
-        bobby.swim(11);
+        bobby.swim(12);
         System.out.println("Total animals: " +Animal.getCountAnimal());
         System.out.println("Total cats: "+Cat.getCountCat());
         System.out.println("Total dogs: "+Dog.getCountDog());
