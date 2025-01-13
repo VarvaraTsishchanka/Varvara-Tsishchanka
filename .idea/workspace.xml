@@ -9,14 +9,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="065d0956-d129-43cf-aef6-393e22c73c2a" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaLessons/src/main/java/lesson2/HomeWork7Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson2/HomeWork7Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaLessons/src/main/java/lesson4/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson4/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,6 +28,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -33,7 +40,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson-6" />
+        <entry key="$PROJECT_DIR$" value="Lesson-8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +57,9 @@
     &quot;accountId&quot;: &quot;674a862f-03f7-473d-8afa-a06b2fa6bbcd&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/javaLessons/src/main/java/lesson4/Main.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -74,7 +84,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.HomeWork7Task1.executor": "Run",
+    "Application.AnimalsMain.executor": "Run",
+    "Application.Employee.executor": "Run",
+    "Application.HomeWork7Task1.executor": "Debug",
     "Application.HomeWork7Task2.executor": "Run",
     "Application.HomeWork7Task3.executor": "Run",
     "Application.HomeWork7Task4.executor": "Run",
@@ -85,20 +97,46 @@
     "Application.HomeWork7Task8.executor": "Run",
     "Application.HomeWork7Task9.executor": "Run",
     "Application.HomeWorkApp.executor": "Run",
+    "Application.HungryCatsMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ParkMain.executor": "Run",
+    "Application.PaymentMain.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Lesson-7",
+    "git-widget-placeholder": "Lesson-9",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "promo.profiler"
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lapcin\IdeaProjects\Varvara-Tsishchanka\javaLessons\src\main\java" />
+      <recent name="C:\Users\Lapcin\IdeaProjects\Varvara-Tsishchanka\javaLessons\src\main\java\lesson4tasks1234" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lesson4tasks1234" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.Employee" />
+      <module name="javaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeWork7Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2.HomeWork7Task1" />
       <module name="javaLessons" />
@@ -140,9 +178,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWork7Task2" />
+        <item itemvalue="Application.Employee" />
         <item itemvalue="Application.HomeWork7Task1" />
-        <item itemvalue="Application.HomeWorkApp" />
+        <item itemvalue="Application.HomeWork7Task2" />
         <item itemvalue="Application.HomeWorkApp" />
         <item itemvalue="Application.HomeWorkApp" />
       </list>
@@ -159,38 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735382696910</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735392396117</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1735392396117</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735392980171</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1735392980171</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735393610717</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1735393610717</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735459517507</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1735459517507</updated>
     </task>
     <task id="LOCAL-00005" summary="Initial commit">
       <option name="closed" value="true" />
@@ -496,7 +502,95 @@
       <option name="project" value="LOCAL" />
       <updated>1735748667198</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1735749030902</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1735749030902</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1735997272875</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1735997272875</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736699539847</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1736699539847</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736699897326</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1736699897326</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736700017170</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1736700017170</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736700221090</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1736700221090</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736700399962</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1736700399962</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736704947706</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1736704947706</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736709667584</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1736709667584</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736710882493</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1736710882493</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736786150714</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1736786150714</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
