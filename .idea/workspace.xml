@@ -9,8 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="065d0956-d129-43cf-aef6-393e22c73c2a" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson4/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson4/PaymentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson4/Park.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson4/ParkMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +95,7 @@
     "Application.HomeWorkApp.executor": "Run",
     "Application.HungryCatsMain.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.ParkMain.executor": "Run",
     "Application.PaymentMain.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -192,22 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735382696910</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735392980171</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1735392980171</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735393610717</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1735393610717</updated>
     </task>
     <task id="LOCAL-00004" summary="Initial commit">
       <option name="closed" value="true" />
@@ -585,7 +570,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736704947706</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736709667584</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1736709667584</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736710882493</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1736710882493</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
