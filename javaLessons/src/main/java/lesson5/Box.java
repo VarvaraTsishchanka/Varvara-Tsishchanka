@@ -30,5 +30,3 @@ public final class Box<T extends Fruit> {
         clear();
     }
 }
-
-
