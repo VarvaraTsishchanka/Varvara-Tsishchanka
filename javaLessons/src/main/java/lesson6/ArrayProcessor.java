@@ -7,9 +7,7 @@ public class ArrayProcessor {
         if (arr.length != 4 || arr[0].length != 4) {
 
             throw new MyArraySizeException("Array size must be 4x4");
-
         }
-
 
         int sum = 0;
 
@@ -37,3 +35,4 @@ public class ArrayProcessor {
     }
 
 }
+
