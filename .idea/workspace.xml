@@ -9,8 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="065d0956-d129-43cf-aef6-393e22c73c2a" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson7/AppData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson8/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson8/WordArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson-11" />
+        <entry key="$PROJECT_DIR$" value="Lesson-12" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,50 +83,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AnimalsMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppData.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CSVFile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Employee.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fruit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FruitsMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork7Task1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HomeWork7Task2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork7Task3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork7Task4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork7Task4Extra.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork7Task5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork7Task6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork7Task7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork7Task8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork7Task9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWorkApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HungryCatsMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParkMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PaymentMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson6.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson7.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Lesson-12&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AnimalsMain.executor": "Run",
+    "Application.AppData.executor": "Run",
+    "Application.ArraysMain.executor": "Run",
+    "Application.CSVFile.executor": "Run",
+    "Application.Employee.executor": "Run",
+    "Application.Fruit.executor": "Run",
+    "Application.FruitsMain.executor": "Run",
+    "Application.HomeWork7Task1.executor": "Debug",
+    "Application.HomeWork7Task2.executor": "Run",
+    "Application.HomeWork7Task3.executor": "Run",
+    "Application.HomeWork7Task4.executor": "Run",
+    "Application.HomeWork7Task4Extra.executor": "Run",
+    "Application.HomeWork7Task5.executor": "Run",
+    "Application.HomeWork7Task6.executor": "Run",
+    "Application.HomeWork7Task7.executor": "Run",
+    "Application.HomeWork7Task8.executor": "Run",
+    "Application.HomeWork7Task9.executor": "Run",
+    "Application.HomeWorkApp.executor": "Run",
+    "Application.HungryCatsMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ParkMain.executor": "Run",
+    "Application.PaymentMain.executor": "Run",
+    "Application.WordArray.executor": "Run",
+    "Application.lesson6.Main.executor": "Run",
+    "Application.lesson7.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Lesson-13",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lapcin\IdeaProjects\Varvara-Tsishchanka\javaLessons\src\main\java" />
@@ -223,14 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735382696910</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735473814552</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1735473814552</updated>
     </task>
     <task id="LOCAL-00012" summary="Initial commit">
       <option name="closed" value="true" />
@@ -616,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737193568559</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1737469979878</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1737469979878</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -651,6 +652,16 @@
           <url>file://$PROJECT_DIR$/javaLessons/src/main/java/lesson7/AppData.java</url>
           <line>6</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaLessons/src/main/java/lesson8/WordArray.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaLessons/src/main/java/lesson8/PhoneBook.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
