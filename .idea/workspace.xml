@@ -9,8 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="065d0956-d129-43cf-aef6-393e22c73c2a" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson8/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson8/WordArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaLessons/src/main/java/lesson4/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaLessons/src/main/java/lesson4/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +42,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson-8" />
+        <entry key="$PROJECT_DIR$" value="Lesson-12" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,7 +87,12 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AnimalsMain.executor": "Run",
+    "Application.AppData.executor": "Run",
+    "Application.ArraysMain.executor": "Run",
+    "Application.CSVFile.executor": "Run",
     "Application.Employee.executor": "Run",
+    "Application.Fruit.executor": "Run",
+    "Application.FruitsMain.executor": "Run",
     "Application.HomeWork7Task1.executor": "Debug",
     "Application.HomeWork7Task2.executor": "Run",
     "Application.HomeWork7Task3.executor": "Run",
@@ -101,10 +108,17 @@
     "Application.Main.executor": "Run",
     "Application.ParkMain.executor": "Run",
     "Application.PaymentMain.executor": "Run",
+    "Application.WordArray.executor": "Run",
+    "Application.lesson6.Main.executor": "Run",
+    "Application.lesson7.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Lesson-9",
+    "git-widget-placeholder": "Lesson-13",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -124,6 +138,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="CSVFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.CSVFile" />
+      <module name="javaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson3.Employee" />
       <module name="javaLessons" />
@@ -150,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork7Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.HomeWork7Task2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5.Main" />
       <module name="javaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.HomeWorkApp" />
+    <configuration name="lesson7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.Main" />
       <module name="javaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lesson7.Main" />
+        <item itemvalue="Application.CSVFile" />
         <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.HomeWork7Task1" />
-        <item itemvalue="Application.HomeWork7Task2" />
-        <item itemvalue="Application.HomeWorkApp" />
-        <item itemvalue="Application.HomeWorkApp" />
       </list>
     </recent_temporary>
   </component>
@@ -197,62 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735382696910</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735459912422</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1735459912422</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735460074465</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1735460074465</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735460212117</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1735460212117</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735472319623</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1735472319623</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735473507471</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1735473507471</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735473654589</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1735473654589</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1735473814552</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1735473814552</updated>
     </task>
     <task id="LOCAL-00012" summary="Initial commit">
       <option name="closed" value="true" />
@@ -590,7 +561,63 @@
       <option name="project" value="LOCAL" />
       <updated>1736786150714</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736787262104</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1736787262104</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736875366298</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1736875366298</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1736875952635</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1736875952635</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1737136905550</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1737136905550</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1737141452302</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1737141452302</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1737193568559</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1737193568559</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1737469979878</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1737469979878</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,5 +634,36 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaLessons/src/main/java/lesson5/Fruit.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaLessons/src/main/java/lesson6/ArrayProcessor.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaLessons/src/main/java/lesson7/AppData.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaLessons/src/main/java/lesson8/WordArray.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaLessons/src/main/java/lesson8/PhoneBook.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
